@@ -1,44 +1,50 @@
-{
-  "droppers": [
-    {
-      "brand": "pnw",
-      "model": "loam",
-      "diameter": 31.6,
-      "travel": 125,
-      "travelAdjust": {
-        "increment": 5,
-        "max": 25
-      }
-    },
-    {
-      "brand": "pnw",
-      "model": "loam",
-      "diameter": 31.6,
-      "travel": 150,
-      "travelAdjust": {
-        "increment": 5,
-        "max": 25
-      }
-    },
-    {
-      "brand": "pnw",
-      "model": "loam",
-      "diameter": 31.6,
-      "travel": 170,
-      "travelAdjust": {
-        "increment": 5,
-        "max": 25
-      }
-    },
-    {
-      "brand": "pnw",
-      "model": "loam",
-      "diameter": 31.6,
-      "travel": 200,
-      "travelAdjust": {
-        "increment": 5,
-        "max": 25
-      }
+[
+  {
+    "brand": "pnw",
+    "model": "loam",
+    "routing": "internal",
+    "diameter": 31.6,
+    "totalLength": 385,
+    "travel": 125,
+    "travelAdjust": {
+      "increment": 5,
+      "max": 25
     }
-  ]
-}
+  },
+  {
+    "brand": "pnw",
+    "model": "loam",
+    "routing": "internal",
+    "diameter": 31.6,
+    "totalLength": 440,
+    "travel": 150,
+    "travelAdjust": {
+      "increment": 5,
+      "max": 25
+    }
+  },
+  {
+    "brand": "pnw",
+    "model": "loam",
+    "routing": "internal",
+    "diameter": 31.6,
+    "totalLength": 480,
+    "travel": 170,
+    "travelAdjust": {
+      "increment": 5,
+      "max": 25
+    }
+  },
+  {
+    "brand": "pnw",
+    "model": "loam",
+    "routing": "internal",
+    "diameter": 31.6,
+    "totalLength": 540,
+    "travel": 200,
+    "travelAdjust": {
+      "increment": 5,
+      "max": 25
+    }
+  }
+]
