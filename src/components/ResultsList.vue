@@ -1,7 +1,8 @@
 <template>
-  <section>
-    <p>Count: {{ count }}</p>
-    <p>Local count: {{ localCount }}</p>
+  <section v-if="results">
+    <ul>
+      <li v-for="dropper in results" :key="dropper">{{ dropper }}</li>
+    </ul>
   </section>
 </template>
 
@@ -11,9 +12,13 @@ import { mapState } from 'vuex'
 export default {
   name: 'ResultsList',
   computed: {
-    ...mapState(['count']),
-    localCount() {
-      return this.count + 2
+      ...mapState(['routingStyle', 'seatpostDiameter', 'maxExtension', 'maxInsertion']),
+    results() {
+      if (!this.routingStyle || !this.seatpostDiameter || !this.maxExtension || !this.maxInsertion) {
+        return;
+      }
+
+      return ['Dropper 1', 'Dropper 2', 'Dropper 3']
     }
   }
 }
