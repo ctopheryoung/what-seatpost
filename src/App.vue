@@ -1,16 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>What Seatpost</h1>
+
+  <main id="main-content">
+    <MeasurementsForm/>
+    <ResultsList/>
+  </main>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MeasurementsForm from './components/MeasurementsForm.vue'
+import ResultsList from './components/ResultsList.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    MeasurementsForm,
+    ResultsList
+}
 }
 </script>
 
@@ -22,5 +28,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#main-content {
+  display: flex;
 }
 </style>
