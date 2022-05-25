@@ -1,0 +1,44 @@
+{
+  "droppers": [
+    {
+      "brand": "pnw",
+      "model": "loam",
+      "diameter": 31.6,
+      "travel": 125,
+      "travelAdjust": {
+        "increment": 5,
+        "max": 25
+      }
+    },
+    {
+      "brand": "pnw",
+      "model": "loam",
+      "diameter": 31.6,
+      "travel": 150,
+      "travelAdjust": {
+        "increment": 5,
+        "max": 25
+      }
+    },
+    {
+      "brand": "pnw",
+      "model": "loam",
+      "diameter": 31.6,
+      "travel": 170,
+      "travelAdjust": {
+        "increment": 5,
+        "max": 25
+      }
+    },
+    {
+      "brand": "pnw",
+      "model": "loam",
+      "diameter": 31.6,
+      "travel": 200,
+      "travelAdjust": {
+        "increment": 5,
+        "max": 25
+      }
+    }
+  ]
+}
