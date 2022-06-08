@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -32,5 +32,6 @@ export default {
 
 #main-content {
   display: flex;
+  align-content: stretch;
 }
 </style>

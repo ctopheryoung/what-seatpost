@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <section class="measurements-form-container">
     <h2>Enter Dropperpost Measurements</h2>
     <section>
       <h3>Routing Style</h3>
@@ -30,7 +30,7 @@
       <p>In millimeters, measure the distance from top of you seat collar down to any obstruction that would limit how far into the frame you could insert the post.</p>
       <input type="number" name="maxInsertion" v-model="maxInsertion"> mm
     </section>
-  </main>
+  </section>
 </template>
 
 <script>
@@ -78,8 +78,10 @@ import { mapState, mapMutations } from 'vuex';
   }
 </script>
 
-<style scoped>
-  main {
+<style lang="scss" scoped>
+  .measurements-form-container {
+    transition: flex 0.5s linear;
+    flex: 1;
     display: flex;
     flex-direction: column;
   }
